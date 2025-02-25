@@ -4,6 +4,7 @@ body {
   line-height: 1.867;
   background-color: #e4e3e3;
 }
+
 nav.navbar .dropdown:hover > .dropdown-menu {
     display: block;
 } 
