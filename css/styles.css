@@ -2,6 +2,7 @@ body {
   font-weight: 500;
   color: #616161;
   line-height: 1.867;
+  background-color: #e4e3e3;
 }
 nav.navbar .dropdown:hover > .dropdown-menu {
     display: block;
@@ -64,10 +65,6 @@ padding-top: 50px;
 
 .sticky-top{
   background-color: white;
-}
-
-body{
-  background-color: #e4e3e3;
 }
 
 .box{
@@ -199,6 +196,7 @@ footer{
 .footer-logo{
   margin-bottom: 21px;
 }
+
 .about{
   color: #999;
   font-size: 12px;
@@ -218,6 +216,7 @@ footer{
 .block__header h2{
   color: black;
 }
+
 .name{
   color: black;
   font-size: 20px;
@@ -235,10 +234,14 @@ footer{
   color: black;
   font-size: 26px;
 }
+
 .phone{
   margin-bottom: 10px;
 }
 
+.goods-footer li a:hover,
+.footer-links li a:hover,
+.footer__links__client li a:hover,
 .phone a:hover,
 .email a:hover{
   color: #ae2121 !important;
@@ -270,31 +273,24 @@ textarea{
 
 textarea:focus{
   outline: none !important;
-  
 }
 
 .inpt_phone{
   padding: 10px 10px 10px;
-  
   border-radius: 3px;
   border: 1px solid #d6d6d6;
-}
-
-.inpt_phone:focus{
-  outline: none !important;
-  
 }
 
 .inpt_email{
   padding: 10px 10px 10px;
-  
   border-radius: 3px;
   border: 1px solid #d6d6d6;
 }
 
+.inpt_phone:focus,
+.inpt-captcha input:focus,
 .inpt_email:focus{
   outline: none !important;
-  
 }
 
 .captcha-img{
@@ -311,10 +307,6 @@ textarea:focus{
   padding: 10px 10px 10px;
   border-radius: 3px;
   border: 1px solid #d6d6d6;
-}
-
-.inpt-captcha input:focus{
-  outline: none !important;
 }
 
 .sub-txt p{
@@ -339,12 +331,14 @@ textarea:focus{
   border: none;
   text-decoration: none;
 }
+
 .btn:hover{
   background: #ae2121;
   border: none;
   outline: none;
   text-decoration: none;
 }
+
 .btn:active{
   background: #7a0e0e;
   border: none;
@@ -383,6 +377,7 @@ textarea:focus{
   height: 42px;
   background-size: 521px 497px;
 }
+
 .social__list img{
   width: 43px;
   height: 42px;
@@ -423,7 +418,8 @@ textarea:focus{
   color: white;
 }
 
-.footer__contacts_title h4{
+.footer__contacts_title h4,
+.footer__mail{
   margin-top: 12px;
 }
 
@@ -435,10 +431,6 @@ textarea:focus{
 .footer__time,
 .footer__phone__sub{
   font-size: 13px;
-}
-
-.footer__mail{
-  margin-top: 12px;
 }
 
 .footer__adress-info{
@@ -462,10 +454,4 @@ textarea:focus{
   overflow: hidden;
   white-space: nowrap;
   color: #999;
-}
-
-.goods-footer li a:hover,
-.footer-links li a:hover,
-.footer__links__client li a:hover{
-  color: #ae2121 !important;
 }
